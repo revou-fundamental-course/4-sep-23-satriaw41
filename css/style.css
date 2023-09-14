@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    margin-top: 650px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 75%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 15px;
+}
+
+header {
+    background-color: #333; /* Warna latar belakang header */
+    color: white; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    padding: 20px; /* Ruang luar (padding) pada header */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2; /* Sesuaikan nilai ini jika perlu */
+}
+
+
+header h1 {
+    margin: 0; /* Hapus margin bawaan dari h1 */
+    font-size: 36px; /* Ukuran font judul */
+}
+
+.container h3{
+    padding: 10px;
+    background-color: #374;
+    color: white;
+    text-align: center;
+}
+
+.centered-image {
+    display: block; /* Membuat gambar menjadi elemen blok */
+    margin: 0 auto; /* Mengatur margin atas dan bawah menjadi 0, dan margin samping menjadi otomatis (secara horizontal) */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069d9;
+    color: #fff;
+    border: none;
+}
+
+#resetButton {
+    background-color: yellow; /* Mengubah warna latar belakang menjadi kuning */
+    color: black; /* Mengubah warna teks menjadi hitam agar kontras */
+    border: none; /* Menghapus border tombol */
+    padding: 10px 20px; /* Menambahkan padding untuk penampilan yang lebih baik */
+    cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+}
+
+#resetButton:hover {
+    background-color: gold; /* Mengubah warna latar belakang saat tombol dihover */
+}
+
+input[type="number"],
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    width: 50%;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Katik | Kalkulator Matematik</h1>
+    </header>
+
+    <div class="container">
+        <h1>Welcome to Katik</h1>
+        <h2>Hai Sobat, Selamat datang di Katik!</h2>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung luas dan keliling dari persegi</p>
+
+        <h3>Persegi</h3>
+
+        <hr>
+
+        <h3>Keliling Persegi</h3>
+
+        <img src="persegi.jpg" alt="" width="200" height="150" class="centered-image">
+
+        <p>Rumus Keliling Persegi yaitu:</p>
+        <p>
+            K = 4 X S
+        </p>
+
+        <p>
+            Di mana :
+            K = Keliling
+            S = Sisi
+        </p>
+
+
+        <h3>Luas Persegi</h3>
+
+        <img src="persegi.jpg" alt="" width="200" height="150" class="centered-image">
+
+        <p>Rumus Luas Persegi yaitu:</p>
+        <p>
+            L = S X S
+        </p>
+
+        <p>
+            Di mana :
+            L = Luas
+            S = Sisi
+        </p>
+
+        <hr>
+        <br>
+        <br>
+
+        <label for="sideLength">Panjang Sisi (cm):</label>
+        <br>
+        <input type="number" id="sideLength" name="sideLength" placeholder="Masukkan panjang sisi">
+        <br>
+        <button onclick="hitungKeliling()">Hitung Keliling</button>
+        <br>
+        <br>
+        <button onclick="hitungLuas()">Hitung Luas</button>
+        <p>Keliling: <span id="kelilingResult">-</span> cm</p>
+        <p>Luas: <span id="luasResult">-</span> cm<sup>2</sup></p>
+        <br>
+        <button id="resetButton" onclick="resetInput()">Reset</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
